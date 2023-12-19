@@ -1,0 +1,39 @@
+{
+    "scanSettings": {
+        "configMode": "AUTO",
+        "configExternalURL": "",
+        "projectToken": "",
+        "baseBranches": []
+    },
+    "checkRunSettings": {
+        "vulnerableCheckRunConclusionLevel": "failure",
+        "displayMode": "diff",
+        "useMendCheckNames": true,
+        "strictMode": "failure"
+    },
+    "issueSettings": {
+        "minSeverityLevel": "LOW",
+        "issueType": "DEPENDENCY"
+    },
+    "remediateSettings": {
+        "workflowRules": {
+            "enabled": true
+        }
+    },
+    "hostRules": [{
+            "matchHost": "https://npm.pkg.github.com",
+            "hostType": "npm",
+            "encrypted": {
+                "token": "PwcBMA90FtVIhcznKAQf/WxrxqLv4IAzqwZzGtLMVOEAunkIcyVzgXTgf2zds3lxtwxzjw7QgACH7cQJtkfDUWsGG1oopvUgab3G78Ot9UhCYdDnUSHyPY4c5lAAVvR6RauYW+/e7S6cXSV8xGb1UTqMFcic56LTUH+54h1ylolKZnvkt1vnNoZmYNQ6N/tf97b/k+HeygT1iDa+Lxn6J+0bysfmkxtjKs/9nuIWrCHtnlyYiG3tGzJCpDGdMut36j+nSvNj2uTMeYlXnTVVUS7fzevEE+xrKRowRZU5C6b1c56+iREYL2gzJKhQkQ3v3bK9OB5jDXuULaTj1Lz+UQND0RFpcmptbp+fNDkuotdJsAdzKEyqdH3W1n2eNjvQJhQIxW+VxSgaW8kLrf81/QpnOxNSh7CbOfgveHi0yvWBITSJ04asKEquwfLRK8EfWM6ppezmLoPJ1fDzgGif0S5cTebmd8tfy/oflhfg6rErSBKr8xam4Az3uN+eI"
+            }
+        },
+        {
+            "matchHost": "https://wsdev.jfrog.io/artifactory/api/npm/default-npm-remote/",
+            "hostType": "npm",
+            "encrypted": {
+                "token": "wcBMA90FtVIhcznKAQf/WxrxqLv4IAzqwZzGtLMVOEAunkIcyVzgXTgf2zds3lxtwxzjw7QgACH7cQJtkfDUWsGG1oopvUgab3G78Ot9UhCYdDnUSHyPY4c5lAAVvR6RauYW+/e7S6cXSV8xGb1UTqMFcic56LTUH+54h1ylolKZnvkt1vnNoZmYNQ6N/tf97b/k+HeygT1iDa+Lxn6J+0bysfmkxtjKs/9nuIWrCHtnlyYiG3tGzJCpDGdMut36j+nSvNj2uTMeYlXnTVVUS7fzevEE+xrKRowRZU5C6b1c56+iREYL2gzJKhQkQ3v3bK9OB5jDXuULaTj1Lz+UQND0RFpcmptbp+fNDkuotdJsAdzKEyqdH3W1n2eNjvQJhQIxW+VxSgaW8kLrf81/QpnOxNSh7CbOfgveHi0yvWBITSJ04asKEquwfLRK8EfWM6ppezmLoPJ1fDzgGif0S5cTebmd8tfy/oflhfg6rErSBKr8xam4Az3uN+eI"
+            }
+        }
+    ]
+
+}
